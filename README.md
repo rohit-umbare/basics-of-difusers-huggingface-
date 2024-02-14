@@ -20,11 +20,11 @@ Maximize performance by leveraging the computational power of multiple GPUs. In 
 Understanding Basic Parameters
 Key parameters such as prompt, height, width, guidance scale, and number of inference steps significantly influence the quality and characteristics of generated images.
 Example Usage
-python
+```python
 Copy code
 # Import necessary classes and modules
 from diffusers import AutoPipelineForText2Image, StableDiffusionPipeline
-import torch
+import torch ```
 
 # Create or Define pipeline
 pipeline = AutoPipelineForText2Image.from_pretrained(
