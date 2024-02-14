@@ -1,5 +1,6 @@
-Diffusers Library Usage Guide
-Summary
+# Diffusers Library Usage Guide
+
+# Summary
 This guide introduces the use of the Diffusers library, a powerful tool for text-to-image generation, leveraging Hugging Face models. It covers the basics of downloading models, utilizing multiple GPUs for performance enhancement, and understanding essential parameters for effective pipeline configuration.
 
 Installation
