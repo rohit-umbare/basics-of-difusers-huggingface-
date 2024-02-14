@@ -26,7 +26,7 @@ Copy code
 from diffusers import AutoPipelineForText2Image, StableDiffusionPipeline
 import torch
 
-# Create or define pipeline
+# Create or Define pipeline
 pipeline = AutoPipelineForText2Image.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0",
     use_safetensors=True,
