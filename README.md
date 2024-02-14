@@ -69,6 +69,7 @@ image = pipeline(
 # Display image
 image.images[0]
 ```
+![Alt text](SDXL_img.png)
 # Loading another model into second
 DreamshaperXL turbo from Huggingface 
 ```python
@@ -94,3 +95,4 @@ num_inference_steps1 = 8
 image1 = pipe(prompt=prompt1, guidace_scale=guidance_scale1, num_inference_steps=num_inference_steps1).images[0]
 image1
 ```
+![Alt text](DreamShaper.png)
