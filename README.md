@@ -103,5 +103,4 @@ image1
 
 
 ## Credits
-
-- [Huggingface]([https://github.com/johndoe](https://github.com/huggingface/diffusers)) 
+[Huggingface](https://github.com/huggingface/diffusers)
