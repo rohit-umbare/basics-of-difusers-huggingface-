@@ -90,9 +90,18 @@ prompt1 = "a fairytale village on the riverside, high res, high quality, realist
 guidance_scale1 = 2
 num_inference_steps1 = 8
 ```
+ 
+
 ```python
 # Generate image using DreamShaperXL
 image1 = pipe(prompt=prompt1, guidace_scale=guidance_scale1, num_inference_steps=num_inference_steps1).images[0]
 image1
 ```
 ![Alt text](DreamShaper.png)
+
+
+
+
+## Credits
+
+- [Huggingface]([https://github.com/johndoe](https://github.com/huggingface/diffusers)) 
