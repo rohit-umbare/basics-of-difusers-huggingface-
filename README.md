@@ -70,7 +70,7 @@ image = pipeline(
 image.images[0]
 ```
 ![Alt text](SDXL_img.png)
-# Loading another model into second
+# Loading another model into second GPU ("cuda:1")
 DreamshaperXL turbo from Huggingface 
 ```python
 # Download DreamShaperXL model
